@@ -1,0 +1,137 @@
+
+@media(min-width:992px){
+    .mobile-menu{
+        display: none;
+    }
+}
+
+@media(max-width:991px){
+    .banner-area .banner-inner{
+        padding: 105px 30px;
+    }
+    .hero-menu ul{
+        display: none !important;
+    }
+    .newsletter-area .row .form-area {
+        flex: 0 0 36%;
+        max-width: 36%;
+    }
+}
+@media(max-width:850px){
+    .tours-area .tour-inner {
+        display: block;
+    }
+    .tours-area .tour-inner .tour-contact {
+        width: 100%;
+        margin-right: 0;
+    }
+    .tours-area .tour-inner .tour-image {
+        text-align: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .service_area{
+        padding-top: 20px;
+    }
+    .newsletter-area,
+    .gallery-area,
+    .tours-area {
+        padding-top: 50px;
+    }
+    .gallery-area .row div span{
+        font-size: 20px;
+    }
+    .newsletter-area {
+        padding: 70px 0;
+    }
+    .footer-area {
+        padding: 47px 0;
+    }
+}
+@media(max-width:767px){
+    .banner-area .banner-inner{
+        padding: 60px 30px;
+    }
+    .banner-area .banner-inner .banner-title{
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    .banner-area .banner-inner .banner-desc br{
+        display: none;
+    }
+    .banner-area .banner-inner .banner-form{
+        flex-wrap: wrap;
+    }
+
+    .banner-area .banner-inner .banner-form div {
+        max-width: 47%;
+        flex: 0 0 47%;
+    }
+    .newsletter-area .row{
+        display: block;
+    }
+    .newsletter-area .row .image-area{
+        margin-left: 0;
+    }
+    .newsletter-area .row .form-area {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .newsletter-area .row .image-area {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .newsletter-area .row .image-area .discount {
+        width: 100%;
+        transform: rotate(0deg);
+        top: 85%;
+        right: 0;
+        left: 0;
+        margin-top: 20px;
+        display: block;
+        position: relative;
+    }
+    .header-area .header-wrap {
+        margin-top: 0px;
+        padding: 20px 0 0;
+    }
+    .banner-area {
+        padding-top: 20px;
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    .banner-area .banner-inner .banner-form{
+        gap: unset;
+    }
+}
+
+@media(max-width:600px){
+    .banner-area .banner-inner .banner-form div {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .service_area .row{
+        display: block;
+    }
+    .gallery-area .row{
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .gallery-area .row div img {
+        margin-bottom: 20px;
+    }
+    .service_area .row .service-box {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }  
+    .header-area .header-wrap .logo img{
+        height: 36px;
+    }
+}
+
+@media(max-width:480px){
+    .gallery-area .row div img{
+        width: 100%;
+    }
+}
